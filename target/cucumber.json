@@ -1,0 +1,164 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-12T01:45:53.280Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4432000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definition.Initializer.beforeHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User verify currency values change",
+        "description": "",
+        "id": "home-page;user-verify-currency-values-change",
+        "after": [
+          {
+            "result": {
+              "duration": 824000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definition.Initializer.afterHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2103000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on Currency",
+            "match": {
+              "location": "step.definition.HomePageStepDefinition.user_click_on_currency()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3442000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Chose Euro from dropdown",
+            "match": {
+              "location": "step.definition.HomePageStepDefinition.user_chose_euro_from_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2077000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "currency value should change to Euro",
+            "match": {
+              "location": "step.definition.HomePageStepDefinition.currency_value_should_change_to_euro()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Homepage"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-12T01:46:06.337Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2872000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definition.Initializer.beforeHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "User empty Shopping cart message displays",
+        "description": "",
+        "id": "home-page;user-empty-shopping-cart-message-displays",
+        "after": [
+          {
+            "result": {
+              "duration": 712000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definition.Initializer.afterHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2073000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User click on shopping cart",
+            "match": {
+              "location": "step.definition.HomePageStepDefinition.user_click_on_shopping_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 47000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "\u0027Your shopping cart is empty!\u0027 message should display",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Your shopping cart is empty!\u0027",
+                  "offset": 0
+                }
+              ],
+              "location": "step.definition.HomePageStepDefinition.message_should_display(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Homepage"
+          }
+        ]
+      }
+    ],
+    "name": "Home Page",
+    "description": "",
+    "id": "home-page",
+    "keyword": "Feature",
+    "uri": "classpath:features/homePage.feature",
+    "tags": [
+      {
+        "name": "@Homepage",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
